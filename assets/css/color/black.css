@@ -1,0 +1,194 @@
+/*
+ *  Document   : style-yellow.css
+ *  Author     : HTMS
+ *  Description: The color theme stylesheet
+ */
+
+ .drop-head .dropdown-item:focus, .drop-head .dropdown-item:hover
+{
+    background: #000000 !important;
+    color:#fff !important;
+}
+
+#close-switcher,
+#open-switcher,
+.site-header,
+
+.site-header .header-alarm,
+.brand,
+.help-dropdown>button {
+    background-color: #000000 !important;
+}
+.show-hide-sidebar span::after,
+.show-hide-sidebar span::before,
+.show-hide-sidebar span{
+    background: #fff
+}
+
+/*.sidebar-toggle-box {
+    background-color: #fff;
+}*/
+
+.site-header .header-alarm,
+.site-header .user-menu.dropdown .dropdown-toggle,
+.site-header .user-menu.dropdown .dropdown-toggle span {
+    color: #fff;
+}
+
+.card-header {
+    border-top: 4px solid #000000
+}
+
+.side-menu-list a:hover,
+.side-menu-list li>span:hover,.side-menu-list a:hover, .side-menu-list li>span:hover,
+.side-menu-list a:active, .side-menu-list li:active, .side-menu-list li>span:active, .side-menu-list a:active, .side-menu-list li>span:active {
+    background-color: #000000;
+    color: #fff;
+}
+
+.side-menu-list li:active {
+    color: #fff
+}
+
+.section-header {
+    border-radius: 4px 4px 0 0;
+    border-top: 4px solid #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    border: none medium;
+}
+
+ul.side-menu-list a.active:active {
+    color: #fff !important;
+}
+
+.active {
+    background: #000000;
+    /*color: #fff !important;*/
+}
+
+.submenu li.active a:link,
+.submenu li.active a:active,
+.submenu li.active a:hover {
+    color: #fff !important;
+    background: #000000 !important;
+}
+/*.arrow-steps{
+    margin-bottom: 15px;
+}
+
+.arrow-steps .step {
+    font-size: 14px;
+    text-align: center;
+    color: #444;
+    cursor: default;
+    margin: 0 3px;
+    padding: 8px 10px 9px 30px;
+    min-width: 100px;
+    float: left;
+    position: relative;
+    background-color: #b6b4b4;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #b6b4b4;    
+    z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+    right: auto;
+    left: 0;
+    border-left: 17px solid #eeeeee;   
+    z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+    border: none;
+}
+
+.arrow-steps .step:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}*/
+.arrow-steps .step span {
+    position: relative;
+}
+.arrow-steps .step a:active, .arrow-steps .step a:focus, .arrow-steps .step a:hover {
+    color:#fff;
+}
+.arrow-steps .step a{
+    color:#999;
+}
+
+/*.arrow-steps .step span:before {
+    opacity: 0;
+    content: "✔";
+    position: absolute;
+    top: -2px;
+    left: -20px;
+}*/
+
+.arrow-steps .step.done span:before {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease 0.5s;
+    -moz-transition: opacity 0.3s ease 0.5s;
+    -ms-transition: opacity 0.3s ease 0.5s;
+    transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+    color: #666;
+    border-bottom: 5px solid #000000;
+    margin-top: -5px
+}
+
+
+.arrow-steps .step.current a:active, .arrow-steps .step.current a:visited {
+    color: #fff;
+    background-color: #dd9655;
+}
+.arrow-steps .step.current:after {
+    border-left: 17px solid #000;    
+}
+.progress-bar.active, .progress.active .progress-bar {
+    /* -webkit-animation: progress-bar-stripes 2s linear infinite; */
+    -o-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+.candidate_prog {
+ margin:0 0 10px 0;
+ background-color: #ccc
+}
+
+/*a, a:focus, a:hover, a:active{
+    color:#fff !important;
+}*/
+
+ .side-menu-list li>span:active{
+    color:#fff;
+ }
+
+.side-menu-list>li.red .fa:active, .side-menu-list>li.red .font-icon:active{
+    color:#fff !important;
+}
+
+.get-org-chart .get-oc-tb{
+    background-color:#000 !important;
+}

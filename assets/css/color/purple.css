@@ -1,0 +1,111 @@
+/*
+ *  Document   : style-yellow.css
+ *  Author     : HTMS
+ *  Description: The color theme stylesheet
+ */
+
+ .drop-head .dropdown-item:focus, .drop-head .dropdown-item:hover
+{
+    background: #7c277d !important;
+    color:#fff !important;
+}
+
+#close-switcher,
+#open-switcher,
+.site-header,
+.show-hide-sidebar span::after,
+.show-hide-sidebar span::before,
+.show-hide-sidebar span,
+.site-header .header-alarm,
+.help-dropdown>button {
+    background-color: #7c277d !important;
+}
+
+/*.sidebar-toggle-box {
+    background-color: #fff;
+}*/
+
+.site-header .header-alarm,
+.site-header .user-menu.dropdown .dropdown-toggle,
+.site-header .user-menu.dropdown .dropdown-toggle span {
+    color: #fff;
+}
+
+.card-header {
+    border-top: 4px solid #7c277d
+}
+
+.side-menu-list a:hover,
+.side-menu-list li>span:hover,.side-menu-list a:hover, .side-menu-list li>span:hover,
+.side-menu-list a:active, .side-menu-list li:active, .side-menu-list li>span:active, .side-menu-list a:active, .side-menu-list li>span:active {
+    background-color: #7c277d;
+    color: #fff;
+}
+
+.side-menu-list li:active {
+    color: #fff
+}
+
+.section-header {
+    border-radius: 4px 4px 0 0;
+    border-top: 4px solid #7c277d;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    border: none medium;
+}
+
+ul.side-menu-list a.active:active {
+    color: #fff !important;
+}
+
+.active {
+    background: #7c277d;
+    /*color: #fff !important;*/
+}
+
+.submenu li.active a:link,
+.submenu li.active a:active,
+.submenu li.active a:hover {
+    color: #fff !important;
+    background: #7c277d !important;
+}
+
+.arrow-steps .step.current {
+  color: #666;
+    border-bottom: 5px solid #7c277d;
+    margin-top: -5px
+}
+.arrow-steps .step.current a:active, .arrow-steps .step.current a:visited {
+    color: #fff;
+    background-color: #dd9655;
+}
+.arrow-steps .step.current:after {
+    border-left: 17px solid #7c277d;    
+}
+.progress-bar.active, .progress.active .progress-bar {
+    /* -webkit-animation: progress-bar-stripes 2s linear infinite; */
+    -o-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+.candidate_prog {
+ margin:0 0 10px 0;
+ background-color: #ccc
+}
+
+/*a, a:focus, a:hover, a:active{
+    color:#fff !important;
+}*/
+
+ .side-menu-list li>span:active{
+    color:#fff;
+ }
+
+.side-menu-list>li.red .fa:active, .side-menu-list>li.red .font-icon:active{
+    color:#fff !important;
+}
+
+.get-org-chart .get-oc-tb{
+    background-color:#7c277d !important;
+}
